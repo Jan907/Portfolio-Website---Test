@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
+    box-sizing: border-box; 
 }
 
 /* Styling Hero */
@@ -155,11 +156,10 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px 100px;
+    padding: 60px 0px;
 }
 
 .quote {
-    max-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -171,6 +171,7 @@ h3 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 200;
+    line-height: 140%;
     
 }
 
@@ -183,3 +184,61 @@ h3 {
 
 /* Styling of the CTA Section */
 
+.content-three {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    max-width: 1200px;
+    padding: 30px;
+    gap: 100px;
+}
+
+.heading-cta {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.cta-text {
+    color: #F9FAF8;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.sign-up2 {
+    border: 1 solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 14px 20px;
+}
+
+
+/* Styling of the Footer */
+
+.footer {
+    width: 100vw;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-weight: 400;
+    font-size: 10px;
+}
