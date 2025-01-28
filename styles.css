@@ -36,6 +36,7 @@ header {
 .nav-links {
     display: flex;
     justify-content: space-between;
+    gap: 24px;
 }
 
 .li {
@@ -47,7 +48,11 @@ header {
     display: flex;
     max-width: 1200px;
     width: 1200px;
-    min-height: 80vh;
+    height: 60vh;
+    max-height: 60vh;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .hero-left {
@@ -62,6 +67,9 @@ header {
     align-items: flex-end;
     justify-content: center;
     flex-direction: column;
+    background-color: grey;
+    padding: 60px;
+    border-radius: 24px;
 }
 
 h1 {
@@ -83,5 +91,8 @@ h1 {
     background-color: #3882F6;
     border-radius: 8px;
     border: 0;
-    padding: 10px 16px;
+    padding: 14px 20px;
 }
+
+/* Styling of the 2nd Section */
+
