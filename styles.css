@@ -18,6 +18,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding-top: 8px;
 }
 
 .nav {
@@ -54,6 +55,7 @@ header {
     justify-content: space-between;
     padding-top: 60px;
     padding-bottom: 60px;
+    align-items: center;
 }
 
 .hero-left {
@@ -67,10 +69,14 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: grey;
     padding: 60px;
     border-radius: 24px;
+    max-height: 260px;
+    min-height: 200px;
+    min-width: 300px;
 }
 
 h1 {
@@ -84,7 +90,8 @@ h1 {
 .subhead {
     font-size: 18px;
     color: #F9FAF8;
-    max-width: 40ch;
+    max-width: 60ch;
+    line-height: 140%;
 }
 
 .sign-up {
