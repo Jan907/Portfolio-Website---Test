@@ -96,3 +96,52 @@ h1 {
 
 /* Styling of the 2nd Section */
 
+.content-one {
+    background-color: #fff;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-container {
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.rectangle {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #3882F6;
+    border-radius: 12px;
+}
+
+.description {
+    text-align: center;
+    max-width: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+}
